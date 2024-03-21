@@ -1,10 +1,17 @@
 
 #home button {
+    display: inline-block;
     height: 100px;
     width: 200px;
     background-color: rgb(171, 14, 243);
     margin-right: 60px;
+    border-radius: 6px;
 }
+#home button:hover {
+    height: 150px;
+    width: 250px;
+  }
+
 #homeImg {
     display: block;
     margin: auto;
@@ -16,6 +23,7 @@
 }
 h1 {
     text-align: center;
+    background-color: chartreuse;
 }
 #blueTrain {
     display: inline-block;
@@ -23,12 +31,10 @@ h1 {
     width: 40%;
 }
 div {
-    /* position: relative; */
+    width: auto;
     text-align: center;
 }
-/* .question {
-    position: absolute;
-} */
+
 .question span {
     display: inline-block;
     text-align: center;
@@ -46,16 +52,26 @@ div {
     width: 200px;
 }
 #sumJudgeButton {
+    border-radius: 6px;
     height: 40px;
     width: 120px;
     background-color: aquamarine;
     margin-right: 60px;
 }
+#sumJudgeButton:hover {
+    height: 80px;
+    width: 240px;
+  }
 #sumNextButton {
+    border-radius: 6px;
     height: 40px;
     width: 120px;
     background-color: rgb(48, 119, 217);
 }
+#sumNextButton:hover {
+    height: 80px;
+    width: 240px;
+  }
 
 #sub {
     display: none;
@@ -82,19 +98,34 @@ div {
     width: 200px;
 }
 #subJudgeButton {
+    border-radius: 6px;
     height: 40px;
     width: 120px;
     background-color: aquamarine;
     margin-right: 60px;
 }
+#subJudgeButton:hover {
+    height: 80px;
+    width: 240px;
+  }
 #subNextButton {
+    border-radius: 6px;
     height: 40px;
     width: 120px;
     background-color: rgb(48, 119, 217);
 }
+#subNextButton:hover {
+    height: 80px;
+    width: 240px;
+  }
 
 .homeButton {
+    border-radius: 6px;
     height: 40px;
     width: 240px;
     background-color: orange;
 }
+.homeButton:hover {
+    height: 80px;
+    width: 300px;
+  }
