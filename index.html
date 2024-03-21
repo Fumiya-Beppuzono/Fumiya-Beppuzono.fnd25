@@ -8,24 +8,47 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>たしざんのおべんきょう</h1>
-    <div id="questions">
-        <!-- <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"></span></p>
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"></span></p>
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"></span></p>
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"></span></p>
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"></span></p> -->
-
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
-        <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
+    <div id="home">
+        <h1>さんすうのおべんきょうをしよう！</h1>
+        <img id="homeImg" src="doubuturessya_nagaidoubuturessya.png" alt="">
+        <h2>🚗やりたいおべんきょうをえらんでね。🚗</h2>
+        <button id="sumSelectButton">たしざんのおべんきょう</button>
+        <button id="subSelectButton">ひきざんのおべんきょう</button>
     </div>
-    <div>
-        <button id="sumJudgeButton">こたえあわせ</button>
-        <button id="sumNextButton">つぎのもんだい</button>
-        </button>
+    <div id="sum">
+        <h1>たしざんのおべんきょう</h1>
+        <img id="blueTrain" src="kisya_ao_kemuri.png" alt="青い電車">
+        <div id="questions">            
+                <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
+                <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
+                <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
+                <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
+                <p class="question"><span></span> + <span></span> = <input class="sumAns" type="text"><em class="judge"></em></p>
+                <img id="allCorrect" src="a7f847c09553393cf30f1202c1c9aeca_t.jpeg" alt="100">
+                <img id="miss" src="mousukosiganbarimasyou_lion.png" alt="ライオン">
+        </div>
+        <div>
+            <button id="sumJudgeButton">こたえあわせ</button>
+            <button id="sumNextButton">つぎのもんだい</button>
+            <p><button class="homeButton">まえのがめんにもどる</button></p>
+        </div>
     </div>
-</body>
+    <div id="sub">
+        <h1>ひきざんのおべんきょう</h1>
+        <img id="redTrain" src="kisya_aka_kemuri.png" alt="赤い電車">
+        <div id="subQuestions">            
+                <p class="subQuestion"><span></span> - <span></span> = <input class="subAns" type="text"><em class="subJudge"></em></p>
+                <p class="subQuestion"><span></span> - <span></span> = <input class="subAns" type="text"><em class="subJudge"></em></p>
+                <p class="subQuestion"><span></span> - <span></span> = <input class="subAns" type="text"><em class="subJudge"></em></p>
+                <p class="subQuestion"><span></span> - <span></span> = <input class="subAns" type="text"><em class="subJudge"></em></p>
+                <p class="subQuestion"><span></span> - <span></span> = <input class="subAns" type="text"><em class="subJudge"></em></p>
+                <img id="subAllCorrect" src="a7f847c09553393cf30f1202c1c9aeca_t.jpeg" alt="100">
+                <img id="subMiss" src="mousukosiganbarimasyou_lion.png" alt="ライオン">
+        </div>
+        <div>
+            <button id="subJudgeButton">こたえあわせ</button>
+            <button id="subNextButton">つぎのもんだい</button>
+            <p><button class="homeButton">まえのがめんにもどる</button></p>
+        </div>
+    </div>
 </html>
