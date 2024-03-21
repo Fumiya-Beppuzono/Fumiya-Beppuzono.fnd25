@@ -1,16 +1,49 @@
+
+#home button {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(171, 14, 243);
+    margin-right: 60px;
+}
+#homeImg {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#sum {
+    display: none;
+}
 h1 {
     text-align: center;
 }
+#blueTrain {
+    display: inline-block;
+    margin: auto;
+    width: 40%;
+}
 div {
+    /* position: relative; */
     text-align: center;
 }
+/* .question {
+    position: absolute;
+} */
 .question span {
     display: inline-block;
     text-align: center;
     width: 50px;
 }
+#allCorrect {
+    display: none;
+}
 .judge {
     margin-left: 50px;
+}
+#miss {
+    display: none;
+    margin: auto;
+    width: 200px;
 }
 #sumJudgeButton {
     height: 40px;
@@ -22,4 +55,46 @@ div {
     height: 40px;
     width: 120px;
     background-color: rgb(48, 119, 217);
+}
+
+#sub {
+    display: none;
+}
+#redTrain {
+    display: inline-block;
+    margin: auto;
+    width: 40%;
+}
+.subQuestion span {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+#subAllCorrect {
+    display: none;
+}
+.subJudge {
+    margin-left: 50px;
+}
+#subMiss {
+    display: none;
+    margin: auto;
+    width: 200px;
+}
+#subJudgeButton {
+    height: 40px;
+    width: 120px;
+    background-color: aquamarine;
+    margin-right: 60px;
+}
+#subNextButton {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(48, 119, 217);
+}
+
+.homeButton {
+    height: 40px;
+    width: 240px;
+    background-color: orange;
 }
