@@ -67,6 +67,7 @@ function judgement() {
         miss.style.display = "none";
     } else {
         miss.style.display = "inline-block";
+        allCorrectImg.style.display = "none";
     }
 }
 
@@ -126,6 +127,7 @@ function subJudgement() {
         subMiss.style.display = "none";
     } else {
         subMiss.style.display = "inline-block";
+        subAllCorrectImg.style.display = "none";
     }
 }
 
