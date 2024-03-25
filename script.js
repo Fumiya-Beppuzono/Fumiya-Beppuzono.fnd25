@@ -4,7 +4,7 @@ const subSelectButton = document.querySelector("#subSelectButton"); //引き算�
 const homeButtons = document.getElementsByClassName("homeButton");
 
 const sum = document.querySelector("#sum");
-const sub = document.querySelector("#sub")
+const sub = document.querySelector("#sub");
 const sumQuestions = document.getElementsByClassName("question"); //足し算問題をHTMLcollectionで取得
 const sumJudgeButton = document.getElementById("sumJudgeButton"); //足し算問題のこたえあわせボタンを取得
 const sumNextButton = document.getElementById("sumNextButton"); //足し算問題のつぎのもんだいボタンを取得
@@ -76,7 +76,7 @@ function judgement() {
 sumNextButton.addEventListener("click", nextQuestion);
 //足し算問題のつぎのもんだいボタンをクリックしたときのイベント処理
 function nextQuestion() {
-    allCorrectImg.style.display = "none"
+    allCorrectImg.style.display = "none";
     miss.style.display = "none";
 
     for (const question of sumQuestions) {
@@ -135,7 +135,7 @@ function subJudgement() {
 subNextButton.addEventListener("click", subNextQuestion);
 //引き算問題のつぎのもんだいボタンをクリックしたときのイベント処理
 function subNextQuestion() {
-    subAllCorrectImg.style.display = "none"
+    subAllCorrectImg.style.display = "none";
     subMiss.style.display = "none";
 
     for (const question of subQuestions) {
